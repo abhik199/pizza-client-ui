@@ -16,7 +16,7 @@ import ToppingList from './topping-list';
 import { ShoppingCart } from 'lucide-react';
 
 export type Product = {
-    id: string;
+    id: number;
     name: string;
     description: string;
     image: string;
